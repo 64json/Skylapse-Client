@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    app:alignContent="center"
+    app:alignItems="center"
+    app:flexDirection="column"
+    app:justifyContent="center">
+
+    <EditText
+        android:id="@+id/et_host"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Host" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In" />
+
+</com.google.android.flexbox.FlexboxLayout>
